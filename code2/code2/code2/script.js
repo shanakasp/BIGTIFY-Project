@@ -1,3 +1,15 @@
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
+});
+
+document.addEventListener("dragstart", function (event) {
+  event.preventDefault();
+});
+
+document.addEventListener("drop", function (event) {
+  event.preventDefault();
+});
+
 window.addEventListener("scroll", function () {
   const scrollPosition = window.scrollY;
   const cardImage = document.getElementById("card-image");
