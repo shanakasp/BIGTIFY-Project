@@ -1,0 +1,152 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Background Image */
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Container Styling */
+.card {
+  width: 80%;
+  max-width: 800px;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image inside Card Styling */
+.card-image {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Text Container Styling */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Text Line Styling */
+.text-line1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5%;
+  color: #080c94;
+}
+.text-line2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+
+/* Button Container Styling */
+.button-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+.card-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 25px;
+  background: linear-gradient(to right, #080c94, #3c74b8);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background: linear-gradient(to right, #3c74b8, #080c94);
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5%;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+  transform: scale(1.2);
+}
+
+.description-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description-page h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.description-page p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.footer-text {
+  margin: 2%;
+  font-size: small;
+}
